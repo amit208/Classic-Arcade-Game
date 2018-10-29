@@ -1,11 +1,13 @@
-#About this project
+# About this project
 This project/game is one of the project of Udacity Front-End-Nanodegree. This project basically check the Object Oriented Programming of the student.
 
 # Name of this project
 Classic Arcade Game
 
 # How to load this Game?
-1. Just clone or download the files from the github link -- 
+1. Just clone the files from the github link -- https://github.com/amit208/Classic-Arcade-Game.git
+    OR
+Download all the files in a zipped folder from this link -- https://github.com/amit208/Classic-Arcade-Game/archive/master.zip
 2. Open the folder
 3. Run the index.html file
 4. Done!!! Your game is ready to play
