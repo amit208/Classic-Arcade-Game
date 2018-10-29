@@ -30,7 +30,9 @@ Enemy.prototype.update = function(dt) {
     // This code will run if the player and the enemy will colloid and will also give the player a new random position on the grass area
     if (player.x < this.x + 80 && player.x + 80 > this.x && player.y < this.y + 60 && player.y + 60 > this.y) {
         player.x = playerXAxis[Math.floor(Math.random() * 4)];  //From the array in line 16
+        console.log(`x-axis ${player.x}`);
         player.y = playerYAxis[Math.floor(Math.random() * 2)];  //From the array in line 17
+        console.log(`y-axis ${player.y}`);
     };
 };
 
@@ -65,21 +67,25 @@ Player.prototype.handleInput = function(keyPress) {
     // For left keypress
     if (keyPress === "left" && this.x >0) {
         this.x -= 102;
+        console.log(this.x);
     };
 
     // For right keypress
-    if (keyPress === "right" && this.x < 405) {
+    if (keyPress === "right" && this.x < 400) {
         this.x += 102;
+        console.log(this.x);
     };
 
     // For up keypress
     if (keyPress === "up" && this.y > 0) {
         this.y -= 83;
+        console.log(this.y);
     };
 
     // For down keypress
-    if (keyPress === "down" && this.y < 405) {
+    if (keyPress === "down" && this.y < 380) {
         this.y += 83;
+        console.log(this.y);
     };
 
     // If the player reached to the water, then this code will show a message and will give it a random position on the grass
