@@ -19,3 +19,7 @@ There are two main things in this game
 You can use your UP, DOWN, RIGHT or LEFT arrow keys to move the players around the canvas.
 Your job is to use the keys to take the players to the top of the canvas (i.e. Upto the water) but withour colloiding with any of the enemies (insects) other wise you will lose and you will be place back again at random place on the grass.
 Once the player reached the top of the canvas (upto the water), the user wins.
+
+# Helpful Resouces
+1. Got help for collision detection -- http://blog.sklambert.com/html5-canvas-game-2d-collision-detection#d-collision-detection
+2. Got help for understanding the keyCodes -- https://css-tricks.com/snippets/javascript/javascript-keycodes/
