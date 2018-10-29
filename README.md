@@ -1,6 +1,19 @@
-frontend-nanodegree-arcade-game
-===============================
+#About this project
+This project/game is one of the project of Udacity Front-End-Nanodegree. This project basically check the Object Oriented Programming of the student.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+# Name of this project
+Classic Arcade Game
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+# How to load this Game?
+1. Just clone or download the files from the github link -- 
+2. Open the folder
+3. Run the index.html file
+4. Done!!! Your game is ready to play
+
+# How to Play the Game?
+There are two main things in this game
+1. Enemies
+2. Player
+You can use your UP, DOWN, RIGHT or LEFT arrow keys to move the players around the canvas.
+Your job is to use the keys to take the players to the top of the canvas (i.e. Upto the water) but withour colloiding with any of the enemies (insects) other wise you will lose and you will be place back again at random place on the grass.
+Once the player reached the top of the canvas (upto the water), the user wins.
