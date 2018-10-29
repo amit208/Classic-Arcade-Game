@@ -104,12 +104,12 @@ let player = new Player(playerXAxis[Math.floor(Math.random() * 4)], playerYAxis[
 // Place all enemy objects in an array called allEnemies
 let allEnemies = [];
 
-// This array contains the location of the enemies on the Y-axis
+// This array contains the location of the enemies on the Y_axis
 let enemyLocation = [63, 147, 230];
 
 // This code will position the enemies and will push it to the "allEnemies" array
-enemyLocation.forEach(function (locationY) {
-    enemy = new Enemy(0, locationY, 200);
+enemyLocation.forEach(function (Y_axis) {
+    enemy = new Enemy(0, Y_axis, 200);
     allEnemies.push(enemy);
 });
 
